@@ -76,7 +76,6 @@ public class PlayerControls : MonoBehaviour
         // fire when button is pressed
         if(Input.GetButton("Fire1"))
         {
-            Debug.Log("Pressed fire button!!");
             SetLasersActive(true);
         }
         else

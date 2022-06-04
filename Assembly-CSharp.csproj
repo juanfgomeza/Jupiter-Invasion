@@ -47,6 +47,8 @@
      <Compile Include="Assets\AssetPacks\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
      <Compile Include="Assets\AssetPacks\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
      <Compile Include="Assets\AssetPacks\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+     <Compile Include="Assets\Scripts\CollisionHandler.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
      <None Include="Assets\AssetPacks\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\AssetPacks\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\AssetPacks\StarSparrow\UpgradeHDRP\UpgradeHDRP.txt" />
