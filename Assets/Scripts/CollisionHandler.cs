@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
+    [SerializeField] ParticleSystem explosionParticles;
     float levelLoadDelay = 1f;    
     
     void OnTriggerEnter(Collider other) 
@@ -17,12 +18,16 @@ public class CollisionHandler : MonoBehaviour
 
     void StartCrashSequence()
     {
-        GetComponent<PlayerControls>().enabled = false;
+        explosionParticles.Play();
+        GetComponent<MeshRenderer>().enabled = false;
+        GetComponent<BoxCollider>().enabled = false;
+        GetComponent<PlayerControls>().enabled = false;        
         Invoke("ReloadLevel",levelLoadDelay);
     }
     void ReloadLevel()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
+        
     }
 }
