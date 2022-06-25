@@ -1302,6 +1302,7 @@ GameObject:
   - component: {fileID: 9049120831466397419}
   - component: {fileID: 9057058816027491551}
   - component: {fileID: 1126966049055016034}
+  - component: {fileID: 8731137214830490573}
   m_Layer: 0
   m_Name: StingerRock
   m_TagString: Untagged
@@ -1385,8 +1386,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4644515ded286c7428e505875f8b922a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3200836327345539238, guid: d0ab60c3782e2094ba3d78e3190b2edb, type: 3}
+  deathFX: {fileID: 3200836327345539238, guid: d0ab60c3782e2094ba3d78e3190b2edb, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: d851bfce5a2d7b341b93b2bf72af89ad, type: 3}
-  parentSpawnObjects: {fileID: 0}
-  enemyHitPoints: 80
+  enemyKillPoints: 15
   enemyHealth: 8
+--- !u!65 &8731137214830490573
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9072377939248347019}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.865558, y: 4.2419853, z: 11.309124}
+  m_Center: {x: 0.00000047683716, y: -0.000006198882, z: -0.0000011920929}

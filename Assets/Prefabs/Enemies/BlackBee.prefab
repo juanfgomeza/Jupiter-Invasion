@@ -496,6 +496,7 @@ GameObject:
   - component: {fileID: 6239862837792032108}
   - component: {fileID: 6247475792045179332}
   - component: {fileID: 3464086450292592851}
+  - component: {fileID: 5091350401779330459}
   m_Layer: 0
   m_Name: BlackBee
   m_TagString: Untagged
@@ -579,11 +580,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4644515ded286c7428e505875f8b922a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3200836327345539238, guid: d0ab60c3782e2094ba3d78e3190b2edb, type: 3}
+  deathFX: {fileID: 3200836327345539238, guid: d0ab60c3782e2094ba3d78e3190b2edb, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: d851bfce5a2d7b341b93b2bf72af89ad, type: 3}
-  parentSpawnObjects: {fileID: 0}
-  enemyHitPoints: 150
+  enemyKillPoints: 15
   enemyHealth: 4
+--- !u!65 &5091350401779330459
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6261781816315888614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.1566553, y: 2.955462, z: 10.7425585}
+  m_Center: {x: 0, y: -0.000011980534, z: 0}
 --- !u!1 &6793302969940701231
 GameObject:
   m_ObjectHideFlags: 0

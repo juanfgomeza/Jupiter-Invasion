@@ -855,6 +855,7 @@ GameObject:
   - component: {fileID: 7248312423637778532}
   - component: {fileID: 7256802308120767574}
   - component: {fileID: 2400721175152813741}
+  - component: {fileID: -2565925275289400393}
   m_Layer: 0
   m_Name: Flocker
   m_TagString: Untagged
@@ -938,10 +939,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4644515ded286c7428e505875f8b922a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3200836327345539238, guid: d0ab60c3782e2094ba3d78e3190b2edb, type: 3}
+  deathFX: {fileID: 3200836327345539238, guid: d0ab60c3782e2094ba3d78e3190b2edb, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: d851bfce5a2d7b341b93b2bf72af89ad, type: 3}
-  enemyHitPoints: 100
+  enemyKillPoints: 15
   enemyHealth: 8
+--- !u!65 &-2565925275289400393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7270007224715782684}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.659655, y: 2.52239, z: 10.850528}
+  m_Center: {x: 0, y: -0.0000032782555, z: -0.0000002384186}
 --- !u!1 &7482942273740468646
 GameObject:
   m_ObjectHideFlags: 0

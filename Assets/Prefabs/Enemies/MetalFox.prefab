@@ -496,6 +496,7 @@ GameObject:
   - component: {fileID: 3390429381927200747}
   - component: {fileID: 3397409499737206113}
   - component: {fileID: 1508745767836639999}
+  - component: {fileID: -8222216869972574859}
   m_Layer: 0
   m_Name: MetalFox
   m_TagString: Untagged
@@ -579,11 +580,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4644515ded286c7428e505875f8b922a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3200836327345539238, guid: d0ab60c3782e2094ba3d78e3190b2edb, type: 3}
+  deathFX: {fileID: 3200836327345539238, guid: d0ab60c3782e2094ba3d78e3190b2edb, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: d851bfce5a2d7b341b93b2bf72af89ad, type: 3}
-  parentSpawnObjects: {fileID: 0}
-  enemyHitPoints: 80
+  enemyKillPoints: 15
   enemyHealth: 10
+--- !u!65 &-8222216869972574859
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418638469584722879}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.926746, y: 5.14402, z: 13.02625}
+  m_Center: {x: -0.00000047683716, y: -0.00000059604645, z: 0}
 --- !u!1 &4810194867001612161
 GameObject:
   m_ObjectHideFlags: 0
